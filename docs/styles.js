@@ -441,7 +441,7 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\stu\Desktop\angular\DIRECTIVE\DIRECTIVE2\DIRECTIVE1\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\stu\Desktop\cm2\src\styles.css */"./src/styles.css");
 
 
 /***/ })
