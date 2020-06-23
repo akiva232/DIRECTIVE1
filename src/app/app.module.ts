@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { C1Component } from './c/c1/c1.component';
 import { AppHighightDirective } from './d/app-highight.directive';
 import { ResultsComponent } from './c/results/results.component';
+import { ShoecaseDirective } from './d/shoecase.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,9 @@ import { ResultsComponent } from './c/results/results.component';
    
     AppHighightDirective,
    
-    ResultsComponent
+    ResultsComponent,
+   
+    ShoecaseDirective
   ],
   imports: [
     BrowserModule

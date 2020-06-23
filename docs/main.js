@@ -35,18 +35,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _c_c1_c1_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./c/c1/c1.component */ "./src/app/c/c1/c1.component.ts");
+/* harmony import */ var _d_shoecase_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./d/shoecase.directive */ "./src/app/d/shoecase.directive.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
+
+
+function AppComponent_li_17_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const l_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](l_r1);
+} }
 class AppComponent {
     constructor() {
         this.title = 'DIRECTIVE1';
+        this.logArr = [];
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 1, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 18, vars: 2, consts: [["appShoecase", "", "clickCountColor", "red", 3, "clickCounterChange"], ["appShoecase", "", "clickCountColor", "blue", 3, "clickCounterChange"], ["appShoecase", "", 3, "clickCountColor", "clickCounterChange"], [4, "ngFor", "ngForOf"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-c1");
-    } }, directives: [_c_c1_c1_component__WEBPACK_IMPORTED_MODULE_1__["C1Component"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "button", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickCounterChange", function AppComponent_Template_button_clickCounterChange_4_listener($event) { return ctx.logArr.push($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "click 1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "button", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickCounterChange", function AppComponent_Template_button_clickCounterChange_7_listener($event) { return ctx.logArr.push($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "click 2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickCounterChange", function AppComponent_Template_button_clickCounterChange_10_listener($event) { return ctx.logArr.push($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "click 3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "button", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickCounterChange", function AppComponent_Template_button_clickCounterChange_13_listener($event) { return ctx.logArr.push($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "click 4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, AppComponent_li_17_Template, 2, 1, "li", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("clickCountColor", ctx.colorParam1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.logArr);
+    } }, directives: [_c_c1_c1_component__WEBPACK_IMPORTED_MODULE_1__["C1Component"], _d_shoecase_directive__WEBPACK_IMPORTED_MODULE_2__["ShoecaseDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -75,6 +120,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _c_c1_c1_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./c/c1/c1.component */ "./src/app/c/c1/c1.component.ts");
 /* harmony import */ var _d_app_highight_directive__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./d/app-highight.directive */ "./src/app/d/app-highight.directive.ts");
 /* harmony import */ var _c_results_results_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./c/results/results.component */ "./src/app/c/results/results.component.ts");
+/* harmony import */ var _d_shoecase_directive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./d/shoecase.directive */ "./src/app/d/shoecase.directive.ts");
+
 
 
 
@@ -91,7 +138,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _c_c1_c1_component__WEBPACK_IMPORTED_MODULE_3__["C1Component"],
         _d_app_highight_directive__WEBPACK_IMPORTED_MODULE_4__["AppHighightDirective"],
-        _c_results_results_component__WEBPACK_IMPORTED_MODULE_5__["ResultsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]] }); })();
+        _c_results_results_component__WEBPACK_IMPORTED_MODULE_5__["ResultsComponent"],
+        _d_shoecase_directive__WEBPACK_IMPORTED_MODULE_6__["ShoecaseDirective"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -99,7 +147,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
                     _c_c1_c1_component__WEBPACK_IMPORTED_MODULE_3__["C1Component"],
                     _d_app_highight_directive__WEBPACK_IMPORTED_MODULE_4__["AppHighightDirective"],
-                    _c_results_results_component__WEBPACK_IMPORTED_MODULE_5__["ResultsComponent"]
+                    _c_results_results_component__WEBPACK_IMPORTED_MODULE_5__["ResultsComponent"],
+                    _d_shoecase_directive__WEBPACK_IMPORTED_MODULE_6__["ShoecaseDirective"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]
@@ -270,6 +319,72 @@ AppHighightDirective.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
 
 /***/ }),
 
+/***/ "./src/app/d/shoecase.directive.ts":
+/*!*****************************************!*\
+  !*** ./src/app/d/shoecase.directive.ts ***!
+  \*****************************************/
+/*! exports provided: ShoecaseDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ShoecaseDirective", function() { return ShoecaseDirective; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class ShoecaseDirective {
+    constructor(elRef) {
+        this.clickCounterChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.el = elRef.nativeElement;
+        // this.el.style.color=this.color
+    }
+    ngOnInit() {
+        this.el.style.color = this.color;
+        this.role = "student";
+    }
+    click() {
+        // alert(`my color is ${this.color}`)
+        this.clickCounterChange.emit(`my color is ${this.color} clicked`);
+        this.clicked = !this.clicked;
+        this.broderColor = this.clicked ? "red" : "blue";
+        this.role = "programer";
+    }
+}
+ShoecaseDirective.ɵfac = function ShoecaseDirective_Factory(t) { return new (t || ShoecaseDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])); };
+ShoecaseDirective.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: ShoecaseDirective, selectors: [["", "appShoecase", ""]], hostVars: 5, hostBindings: function ShoecaseDirective_HostBindings(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ShoecaseDirective_click_HostBindingHandler() { return ctx.click(); });
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("role", ctx.role);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("border-color", ctx.broderColor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("clicked", ctx.clicked);
+    } }, inputs: { color: ["clickCountColor", "color"] }, outputs: { clickCounterChange: "clickCounterChange" } });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ShoecaseDirective, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+        args: [{
+                selector: '[appShoecase]'
+            }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }]; }, { color: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
+            args: ['clickCountColor']
+        }], click: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['click']
+        }], clickCounterChange: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], clicked: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
+            args: ['class.clicked']
+        }], broderColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
+            args: ['style.border-color']
+        }], role: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"],
+            args: ['attr.role']
+        }] }); })();
+
+
+/***/ }),
+
 /***/ "./src/app/s/counter.service.ts":
 /*!**************************************!*\
   !*** ./src/app/s/counter.service.ts ***!
@@ -362,7 +477,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\stu\Desktop\angular\DIRECTIVE\DIRECTIVE1\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\stu\Desktop\angular\DIRECTIVE\DIRECTIVE2\DIRECTIVE1\src\main.ts */"./src/main.ts");
 
 
 /***/ })

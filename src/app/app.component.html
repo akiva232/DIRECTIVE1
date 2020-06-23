@@ -1,3 +1,18 @@
 
 
+
+
 <app-c1 ></app-c1>
+
+<br><br><br>
+
+
+<button appShoecase clickCountColor="red" (clickCounterChange)="logArr.push($event)">click 1</button><br>
+<button appShoecase clickCountColor="blue" (clickCounterChange)="logArr.push($event)">click 2</button><br>
+<button appShoecase [clickCountColor]="colorParam1" (clickCounterChange)="logArr.push($event)">click 3</button><br>
+<button appShoecase clickCountColor="blue" (clickCounterChange)="logArr.push($event)">click 4</button><br>
+
+
+<ul>
+    <li *ngFor='let l of logArr'>{{l}}</li>
+</ul>

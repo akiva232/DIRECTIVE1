@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DIRECTIVE1';
+
+
+
+  colorParam1:'violet'
+
+  logArr=[]
 }
